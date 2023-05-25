@@ -6,7 +6,8 @@ Apart from academics, I am a great music enthusiast, currently mastering the art
 
 Your support to [my work](https://space.bilibili.com/670033492?spm_id_from=333.1296.0.0) is always my best motivation.
 
+![Image of Jinghao](images/jinghao.jpg) 
+
 Fun fact: my favourite K-pop idol is Jennie ♡
 
-![Image of Jinghao](images/jinghao.jpg) 
 ![Image of Jennie](images/jennie.jpg) 
