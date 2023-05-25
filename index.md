@@ -5,5 +5,6 @@ Your support to [my work](https://space.bilibili.com/670033492?spm_id_from=333.1
 Fun fact: my favourite K-pop idol is Jennie ♡
 
 ![Image of fast.ai logo](images/logo.png) 
+![Image of Jinghao](images/jinghao.jpg) 
 ![Image of Jennie](images/jennie.jpg) 
 
