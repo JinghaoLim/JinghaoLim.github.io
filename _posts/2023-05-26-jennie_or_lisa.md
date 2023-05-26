@@ -1,6 +1,6 @@
 # Jennie or Lisa? An Adaptation based on "Is it a bird" from fast.ai
 
-I created this adaptation to test the accuracy of model on a more specific case. Surprisingly, it gave an almost perfect prediction.
+I created this adaptation to test the accuracy of model on a more specific case. Surprisingly, it gave an almost perfect prediction with an accuracy of **0.9985**.
 
 Table of contents:
 1. TOC
@@ -52,7 +52,7 @@ for o in searches:
     sleep(10)
     resize_images(path/o, max_size=400, dest=path/o)
 
-# Remove incorrecly downloaded images
+# Remove failed downloads
 failed = verify_images(get_image_files(path))
 failed.map(Path.unlink)
 len(failed)
@@ -79,7 +79,7 @@ learn.fine_tune(10)
 ![Jennie or Lisa image](/images/jennie_or_lisa.jpg)
 
 ```python
-# Output prediction
+# Predict results
 is_jennie,_,probs = learn.predict(PILImage.create('jennie.jpg'))
 print(f"She is: {is_jennie}.")
 print(f"Probability she is Jennie: {probs[0]:.4f}")
@@ -87,5 +87,6 @@ print(f"Probability she is Jennie: {probs[0]:.4f}")
 ![Jennie or Lisa image](/images/jennie_or_lisa(2).jpg)
 
 ## More about Jennie and Lisa
-[^1]: Want to know more about Jennie? [Click here.](https://en.wikipedia.org/wiki/Jennie_(singer))
-[^2]: Want to know more about Lisa? [Click here.](https://en.wikipedia.org/wiki/Lisa_(rapper))
+Want to know more about Jennie? [Click here](https://en.wikipedia.org/wiki/Jennie_(singer)).
+
+Want to know more about Lisa? [Click here](https://en.wikipedia.org/wiki/Lisa_(rapper)).
