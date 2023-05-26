@@ -1,4 +1,4 @@
-# Jennie or Lisa? An Adaptation based on "Is it a bird" from fast.ai
+# Jennie or Lisa? An Adaptation based on "Is it a bird?" from fast.ai
 
 I created this adaptation to test the accuracy of model on a more specific case. Surprisingly, it gave an almost perfect prediction with an accuracy of **0.9985**.
 
