@@ -1,3 +1,3 @@
-# Your blog
+# Jinghao's blog
 
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+Blog generated for ELEC4630 Question 1 based on fast_template.
